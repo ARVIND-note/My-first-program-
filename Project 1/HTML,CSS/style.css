@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins";
+}
+title {
+  color: #000;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: ;
+}
+main {
+  position: relative;
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgb(128, 48, 198);
+  overflow-x: hidden;
+}
+nav {
+  /* background-color: blue;*/
+  padding: 60px 120px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .part2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+}
+nav h1 {
+  font-size: 80px;
+  font-weight: 200;
+}
+nav a {
+  font-size: 40px;
+  color: rgb(24, 15, 3);
+  text-decoration: none;
+}
+section {
+  padding: 60px;
+  position: relative;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+section .hero-text1 {
+  /* background-color: red; */
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  margin-left: 50px;
+}
+.hero-text1 h1 {
+  font-size: 400px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 400px;
+  margin: 0;
+}
+.hero-text1 .topic {
+  background-color: black;
+  width: 500px;
+  height: 150px;
+  border-radius: 90px;
+  margin-top: 120px;
+  margin-right: 100px;
+  background-image: url(https://imgs.search.brave.com/yBRlK2xHR5MGQZHVaqRNOpwFicxy12osBisqqsQ-_ik/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMucGV4ZWxzLmNv/bS9waG90b3MvMjk2/MTIxMTQvcGV4ZWxz/LXBob3RvLTI5NjEy/MTE0L2ZyZWUtcGhv/dG8tb2YtYWJzdHJh/Y3QtM2QtcmVuZGVy/LXdpdGgtcGFzdGVs/LWNvbG9ycy1hbmQt/Y2lyY3VsYXItZWxl/bWVudHMuanBlZz9h/dXRvPWNvbXByZXNz/JmNzPXRpbnlzcmdi/JmRwcj0xJnc9NTAw);
+  background-size: cover;
+  padding: 6px;
+}
+.topic .play {
+  background-color: black;
+  width: 130px;
+  height: 130px;
+  border-radius: 70px;
+  margin-top: 5px;
+  border: 4px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.play i {
+  color: white;
+  font-size: 60px;
+  border: 1px;
+}
+.hero-text2 h1 {
+  font-size: 400px;
+  text-transform: uppercase;
+  line-height: 1;
+  font-weight: 400px;
+  margin-left: 50px;
+}
+.hero-text2 p {
+  font-size: 40px;
+
+  width: 1000px;
+  position: absolute;
+  top: 320px;
+  right: 120px;
+  z-index: 20;
+  margin-top: 250px;
+}
+section .ditails {
+  position: relative;
+  margin-top: 120px;
+  background-color: transparent;
+  width: 500px;
+  height: 100px;
+  border-radius: 90px;
+  border: 4px solid rgba(255, 255, 255, 0.18);
+  background-size: 20px;
+  padding: 6px;
+}
+.ditails-text {
+  position: absolute;
+  bottom: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 50px;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  font-weight: 400;
+  white-space: nowrap;
+  margin-bottom: 71px;
+  margin-right: 10px;
+}
+.ditails .ditails2 {
+  position: absolute;
+  top: 50%;
+  right: -70px;
+  transform: translateY(-50%);
+  width: 120px;
+  height: 120px;
+
+  border-radius: 50%;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.543);
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.24);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ditails .ditails2 .os-label {
+  position: absolute;
+  bottom: -32px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-size: 50px;
+  color: rgb(226, 237, 153);
+  letter-spacing: 0.16em;
+  text-transform: none;
+  font-weight: 600;
+  margin-bottom: 57;
+}
+.image {
+  width: 2200px;
+  height: 1000px;
+  background-color: red;
+  position: relative;
+  left: 380px;
+  top: 120px;
+  border-top-right-radius: 120px;
+  border-top-left-radius: 120px;
+  background-image: url(https://media.gettyimages.com/id/1192970695/vector/abstract-fluid-multicolors-background.jpg?s=612x612&w=0&k=20&c=w9l_VB_iUF3YJvJg1kB9pmpsJOPYDrM1_QYrTqdShwU=);
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image .arrow {
+  position: absolute;
+  right: 5%;
+  top: -10%;
+  margin-left: 100px;
+  border-radius: 50%;
+
+  background-color: #000;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 4px solid white;
+}
+.arrow i {
+  font-size: 160px;
+  color: aqua;
+}
