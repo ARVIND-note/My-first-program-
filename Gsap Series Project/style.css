@@ -198,3 +198,178 @@ section .ditails {
   font-size: 160px;
   color: aqua;
 }
+
+@media (max-width: 940px) {
+  nav {
+    padding: 40px 30px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  nav h1 {
+    font-size: 56px;
+  }
+
+  nav .part2 {
+    gap: 40px;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    font-size: 28px;
+  }
+
+  section {
+    padding: 40px 30px;
+  }
+
+  .hero-text1,
+  .hero-text2 {
+    margin-left: 0;
+  }
+
+  .hero-text1 h1,
+  .hero-text2 h1 {
+    font-size: 220px;
+  }
+
+  .hero-text1 .topic {
+    width: 380px;
+    height: 120px;
+    margin-top: 80px;
+    margin-right: 30px;
+  }
+
+  .topic .play {
+    width: 110px;
+    height: 110px;
+  }
+
+  .play i {
+    font-size: 48px;
+  }
+
+  .hero-text2 p {
+    font-size: 28px;
+    width: 90%;
+    position: relative;
+    top: 0;
+    right: 0;
+    margin: 20px 0 0 0;
+  }
+
+  .ditails {
+    width: 100%;
+    margin-top: 80px;
+  }
+
+  .ditails-text,
+  .ditails .ditails2 .os-label {
+    font-size: 32px;
+  }
+
+  .ditails .ditails2 {
+    right: -40px;
+    width: 100px;
+    height: 100px;
+  }
+
+  .image {
+    width: 100%;
+    height: 620px;
+    left: 0;
+    top: 60px;
+    border-radius: 60px;
+    background-position: center;
+  }
+
+  .image .arrow {
+    width: 150px;
+    height: 150px;
+    right: 10%;
+    top: -8%;
+  }
+
+  .arrow i {
+    font-size: 110px;
+  }
+}
+
+@media (max-width: 620px) {
+  nav {
+    padding: 24px 20px;
+  }
+
+  nav h1 {
+    font-size: 40px;
+  }
+
+  nav .part2 {
+    gap: 24px;
+  }
+
+  nav a {
+    font-size: 20px;
+  }
+
+  .hero-text1 h1,
+  .hero-text2 h1 {
+    font-size: 140px;
+  }
+
+  .hero-text1 .topic {
+    width: 280px;
+    height: 100px;
+    margin-top: 60px;
+    margin-right: 0;
+  }
+
+  .topic .play {
+    width: 90px;
+    height: 90px;
+  }
+
+  .play i {
+    font-size: 36px;
+  }
+
+  .hero-text2 p {
+    font-size: 18px;
+    width: 100%;
+  }
+
+  .ditails {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .ditails-text,
+  .ditails .ditails2 .os-label {
+    font-size: 24px;
+  }
+
+  .ditails .ditails2 {
+    right: -32px;
+    width: 84px;
+    height: 84px;
+  }
+
+  .image {
+    height: 420px;
+    top: 40px;
+    border-radius: 40px;
+  }
+
+  .image .arrow {
+    width: 120px;
+    height: 120px;
+    right: 8%;
+    top: -6%;
+  }
+
+  .arrow i {
+    font-size: 72px;
+  }
+}
